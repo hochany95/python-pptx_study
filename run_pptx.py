@@ -93,7 +93,7 @@ def create_lyrics(lyric, left = 0, top = 6, width = 13.333, height = 1.5):
 
 # create pptx
 prs = Presentation("basic.pptx")
-text_path = "D:/python/수련회찬양.txt"
+text_path = "D:/python/Lyrics_list.txt"
 f = codecs.open(text_path, "r", "utf-8")
 lines = f.readlines()
 
